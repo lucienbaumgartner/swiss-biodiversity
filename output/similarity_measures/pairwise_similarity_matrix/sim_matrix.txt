@@ -1,0 +1,3 @@
+lemmata_embeddings_npg_de_clean	lemmata_embeddings_nps_de_clean
+lemmata_embeddings_npg_de_clean	0.9999999	0.81501985
+lemmata_embeddings_nps_de_clean	0.81501985	1.0
