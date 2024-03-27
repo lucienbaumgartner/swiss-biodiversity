@@ -2,11 +2,9 @@ import pickle
 import os
 import torch
 from collections import defaultdict
-import pandas as pd
 import numpy as np
 from tqdm import tqdm
 from HanTa import HanoverTagger as ht
-import nltk
 
 # Load the German language model
 tagger = ht.HanoverTagger('morphmodel_ger.pgz')

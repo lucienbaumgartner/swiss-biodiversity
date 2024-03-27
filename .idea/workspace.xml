@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e196e1-c660-4a61-b46e-12cdc359bf84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregate_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generate_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/similarity_measures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/similarity_measures/t-SNE/all_pos/biodiversität_lemmata_npg_de_clean.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/similarity_measures/t-SNE/all_pos/biodiversität_lemmata_npg_de_clean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/similarity_measures/t-SNE/all_pos/biodiversität_lemmata_nps_de_clean.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/similarity_measures/t-SNE/all_pos/biodiversität_lemmata_nps_de_clean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/similarity_measures/t-SNE/nn/biodiversität_lemmata_npg_de_clean.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/similarity_measures/t-SNE/nn/biodiversität_lemmata_npg_de_clean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/similarity_measures/t-SNE/nn/biodiversität_lemmata_nps_de_clean.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/similarity_measures/t-SNE/nn/biodiversität_lemmata_nps_de_clean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregate_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregate_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/similarity_measures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/similarity_measures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,33 +28,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eERCjsRDr9gJd6O8uIbyfZ82Bu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.aggregate_embeddings.executor": "Run",
-    "Python.delete.executor": "Run",
-    "Python.generate_embeddings.executor": "Run",
-    "Python.scratch_1.executor": "Run",
-    "Python.similarity_measures.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.aggregate_embeddings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_embeddings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.similarity_measures.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

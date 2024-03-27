@@ -92,7 +92,7 @@ def create_tsne_plot(target_term, target_pos, embeddings_dict, out, radius=10):
     # Calculate distances from the target term to all other points
     distances = np.sqrt((tsne_results[:, 0] - target_coords[0])**2 + (tsne_results[:, 1] - target_coords[1])**2)
 
-    plt.figure(figsize=(10, 10))
+    plt.figure(figsize=(15, 15))
     texts = []
     for i, (term, pos) in enumerate(terms):
         # Only plot points within the defined radius from the target term
@@ -199,7 +199,5 @@ create_tsne_plot_for_all_files(target_term=target_term,target_pos=target_pos, em
 
 # Calculate pairwise similarity matrix for target term embeddings across all files
 target_dict = {key: value for key, value in filtered_dict.items() if key[1] == target_term}
-
 sim_matrix, keys = calculate_similarity(target_dict)
-
 write_similarity_to_file(sim_matrix=sim_matrix, keys=keys, key_index=0, filename='../output/similarity_measures/pairwise_similarity_matrix/sim_matrix.txt')
