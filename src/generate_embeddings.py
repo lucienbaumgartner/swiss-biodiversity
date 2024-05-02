@@ -103,10 +103,19 @@ txt_files = os.listdir(input_folder_path)
 if ".DS_Store" in txt_files:
     txt_files.remove(".DS_Store")
 
+print("Files to process:")
+for txt_file in txt_files:
+    print(txt_file)
+
 for txt_file in txt_files:
     with open(input_folder_path + txt_file, 'r', encoding='utf-8') as file:
         text = file.read()
-    sentences = sent_tokenize(text, language='german')
+    lang = re.search(r"_(de|fr)_", txt_file).group(1)
+    if lang == "de":
+        lang = "german"
+    if lang == "fr":
+        lang = "french"
+    sentences = sent_tokenize(text, language=lang)
     sentences = [sentence.replace('\n', '') for sentence in sentences]
     sentences = [sentence.replace(' -', '-') for sentence in sentences]
     sentences = [' '.join(re.split(r'\s+', sentence)) for sentence in sentences]

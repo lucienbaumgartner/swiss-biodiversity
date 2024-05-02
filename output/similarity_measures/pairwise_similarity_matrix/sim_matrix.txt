@@ -1,3 +1,9 @@
-lemmata_embeddings_npg_de_clean	lemmata_embeddings_nps_de_clean
-lemmata_embeddings_npg_de_clean	0.9999999	0.81501985
-lemmata_embeddings_nps_de_clean	0.81501985	1.0
+lemmata_embeddings_bvm_de_clean	lemmata_embeddings_gpe_fr_clean	lemmata_embeddings_lpb_de_clean	lemmata_embeddings_npb_de_clean	lemmata_embeddings_npd_de_clean	lemmata_embeddings_npe_de_clean	lemmata_embeddings_npg_de_clean	lemmata_embeddings_nps_de_clean
+lemmata_embeddings_bvm_de_clean	0.99999976	0.65505254	0.7527032	0.76851535	0.8384862	0.7457647	0.7355773	0.7711382
+lemmata_embeddings_gpe_fr_clean	0.65505254	0.9999999	0.7766974	0.7219566	0.77749133	0.7673249	0.75957143	0.7888408
+lemmata_embeddings_lpb_de_clean	0.7527032	0.7766974	0.99999976	0.83079076	0.8724023	0.8671917	0.8782993	0.8763444
+lemmata_embeddings_npb_de_clean	0.76851535	0.7219566	0.83079076	1.0000004	0.8478646	0.80959135	0.8088116	0.8901925
+lemmata_embeddings_npd_de_clean	0.8384862	0.77749133	0.8724023	0.8478646	1.0000001	0.87302756	0.82154745	0.9016428
+lemmata_embeddings_npe_de_clean	0.7457647	0.7673249	0.8671917	0.80959135	0.87302756	0.9999997	0.8205108	0.8494756
+lemmata_embeddings_npg_de_clean	0.7355773	0.75957143	0.8782993	0.8088116	0.82154745	0.8205108	0.9999999	0.81501985
+lemmata_embeddings_nps_de_clean	0.7711382	0.7888408	0.8763444	0.8901925	0.9016428	0.8494756	0.81501985	1.0
